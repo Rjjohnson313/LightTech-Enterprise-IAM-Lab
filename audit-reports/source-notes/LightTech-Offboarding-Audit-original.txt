@@ -1,0 +1,35 @@
+LIGHTTECH ENTERPRISE IAM LAB
+Offboarding Audit Report
+Employee: Honey H. Wells
+Environment: Active Directory + Okta
+Audit Type: Identity Lifecycle / Leaver
+Review Status: Completed
+
+
+Audit Findings
+
+Control	Evidence	Outcome
+Account deactivation	Okta lifecycle event	Successful
+Finance Portal access removal	Application membership removal event	Successful
+HR Portal access removal	Application membership removal event	Successful
+Session clearing	Okta session event	Successful
+Import-triggered lifecycle operation	Okta import event	Successful
+Account status verification	Okta user profile	Deactivated
+
+
+Audit Interpretation
+The Okta System Log recorded successful lifecycle operations associated with Honey H. Wells’ offboarding.
+
+Both Finance Portal and HR Portal application memberships were removed. A session-clearing operation was recorded, and the account remains deactivated.
+
+The import-triggered deletion-related event was successful, but the user’s profile remained present in Okta. Therefore, permanent account deletion was not established.
+
+Final Assessment
+Result: PASS — Verified Lab Offboarding Controls
+
+The reviewed Okta events support successful application deprovisioning, account deactivation, and session clearing.
+
+This assessment applies to the tested Okta environment and does not establish termination of every possible external application session.
+
+Environment Classification: Controlled IAM Home Lab
+Production Impact: None

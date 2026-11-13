@@ -92,8 +92,7 @@ LightTech Enterprise IAM Lab/
 │   └── source-notes/           # Original lab audit text files
 ├── screenshots/                # Curated public-safe evidence by workflow
 ├── SECURITY.md                 # Evidence-handling and redaction policy
-├── LICENSE
-└── PUBLISH_TO_GITHUB.md        # Upload instructions
+└── LICENSE
 ```
 
 ## Skills demonstrated
